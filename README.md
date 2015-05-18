@@ -15,10 +15,10 @@ Finally set the theme in `/var/www/owncloud/config/config.php/`
 ## Troubleshooting
 
 If your changes are not being displayed check the file permissions of the theme folder  
-    ```shell
-    chmod -R 640 /var/www/owncloud/themes/ThemeName
-    ```
-You also need to ensure apache can read the files
-    ```shell
-    chown -R user:www-data /var/www/owncloud/themes/ThemeName
-    ```
+```bash
+chmod -R 640 /var/www/owncloud/themes/ThemeName
+```
+You also need to ensure apache can read the files  
+```bash
+chown -R user:www-data /var/www/owncloud/themes/ThemeName
+```
