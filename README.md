@@ -12,6 +12,12 @@ Finally set the theme in `/var/www/owncloud/config/config.php/`
 
     'theme' => 'BourneGrammarOwnCloud',
 
+## Creating your own theme
+
+1. Create the Directory to store your custom theme, replace ThemeName with your desired name `mkdir /var/www/owncloud/themes/ThemeName`
+2. Populate the theme folder `cp /var/www/owncloud/core/ /var/www/owncloud/themes/ThemeName`
+3 To be continued (shortly)
+
 ## Troubleshooting
 
 If your changes are not being displayed check the file permissions of the theme folder  
