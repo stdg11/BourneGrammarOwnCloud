@@ -6,7 +6,7 @@ see https://doc.owncloud.org/server/8.0/developer_manual/core/theming.html
 
 ## Installing Theme
 
-To install this OwnCloud theme copy the repo to `/var/www/owncloud/themes/` then see [Troubleshooting](## Troubleshooting) below to set the file permissions.
+To install this OwnCloud theme copy the repo to `/var/www/owncloud/themes/` then see [Troubleshooting](#troubleshooting) below to set the file permissions.
 
 Finally set the theme in `/var/www/owncloud/config/config.php/`
 
