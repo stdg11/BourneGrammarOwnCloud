@@ -6,9 +6,13 @@ see https://doc.owncloud.org/server/8.0/developer_manual/core/theming.html
 
 ## Installing Theme
 
-To install this OwnCloud theme copy the repo to `/var/www/owncloud/themes/` then see [Troubleshooting](#troubleshooting) below to set the file permissions.
-
-Finally set the theme in `/var/www/owncloud/config/config.php/`
+1. Clone this repository in `/var/www/owncloud/themes/`
+  a. `cd /var/www/owncloud/themes/`
+  b. `git clone https://github.com/stdg11/BourneGrammarOwnCloud`
+2. Set the file permissions
+  a. `chmod -R 640 /var/www/owncloud/themes/BourneGrammarOwnCloud
+  b. `chown -R www-data:www-data /var/www/owncloud/themes/`
+3. Finally set the theme in `/var/www/owncloud/config/config.php/`
 
     'theme' => 'BourneGrammarOwnCloud',
 

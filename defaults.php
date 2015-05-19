@@ -13,7 +13,7 @@
 		/* can be a longer name, for titles
 		* @return string
 		*/
-		return 'FileBox gives you wings! ';
+		return 'Bourne Grammar School - FileBox';
     }
     public function getEntity() {
 		/* e.g. company name, used for footers and copyright notices
@@ -25,7 +25,7 @@
 		/* e.g. Strapline, used for footers and copyright notices
 		* @return string
 		*/
-		return 'providing half-baked examples since 2015';
+		return '2015';
     }
     public function getBaseUrl() {
 		/**
