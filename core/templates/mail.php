@@ -18,7 +18,6 @@ if ( isset($_['expiration']) ) {
 	print_unescaped('<br><br>');
 }
 // TRANSLATORS term at the end of a mail
-p($l->t('Kind Regards,<br>%s',$_['user_displayname']));
 ?>
 </td>
 </tr>
