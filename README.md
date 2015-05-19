@@ -24,10 +24,10 @@ https://doc.owncloud.org/server/8.0/admin_manual/operations/theming.html
 3. Enable the theme in `/var/www/owncloud/config/config.php/`
   * `'theme' => 'BourneGrammarOwnCloud',`
 4. Customising the logo
-  Customized logos must meet the following specifications, and they go in the themes/core/img directory.
-  ####Logo.svg
+  * Customized logos must meet the following specifications, and they go in the `/core/img` directory.
+  * #### Logo.svg
   This is the splash screen logo that appears above the ownCloud login page. The size of this image is approximately 252x122 pixels. Any larger and the logo will not fit properly on the page.
-  ####Logo-wide.svg
+  * #### Logo-wide.svg
   This is the little logo that appears in the top left of the ownCloud navigation frame. The size of this image is 140x32 pixels. The width may be larger but the height is fixed.
 5. 
 
